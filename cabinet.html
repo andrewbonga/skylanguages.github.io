@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Личный Кабинет</title>
+  <style>
+     .container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+} 
+  </style>
+</head>
+</head>
+<body>
+  <div class="container">
+    <h1>Войти</h1>
+    <form action="login.php" method="POST">
+      <label for="username">Имя:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">ВОЙТИ</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
